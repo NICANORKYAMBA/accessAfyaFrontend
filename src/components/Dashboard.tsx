@@ -54,11 +54,11 @@ const Dashboard = () => {
         setFilter(e.target.value);
     };
 
-    const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const handleSortChange : React.ChangeEventHandler<HTMLInputElement> = (e) => {
         setSortField(e.target.value as string);
     };
-
-    const handleSortOrderChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    
+    const handleSortOrderChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
         setSortOrder(e.target.value as string);
     };
 
