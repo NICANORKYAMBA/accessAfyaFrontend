@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard .container {
+    flex: 1;
+}
+
+.dashboard .navbar {
+    margin-bottom: 20px;
+}
+
+.dashboard .card {
+    margin-bottom: 20px;
+}
+
+.dashboard h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.dashboard .form-control {
+    margin-bottom: 15px;
+}
+
+.dashboard .table {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .dashboard h1 {
+        font-size: 1.8rem;
+    }
+}
